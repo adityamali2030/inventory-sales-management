@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Secrets
+.env
+.env.*
+
+# macOS files
+.DS_Store
